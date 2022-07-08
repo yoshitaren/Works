@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>鬼滅の刃</title>
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Yuji+Syuku&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Nunito+Sans:ital,wght@1,300;1,900&family=Pushster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<header>
+		<h1><a href="index.html"><img class="logo" src="image/logo.png" alt="鬼滅の刃ロゴ" width="485" height="273"></a></h1>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="character.html">character</a></li>
+				<li><a href="original.html">original</a></li>
+				<li><a href="anime.html">anime</a></li>
+				<li><a href="form.html">form</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<main>
+	<h2 class="hen">お問い合わせフォーム</h2>
+	<div class="contact">
+		<form id="form-contact" action="#" method="post">
+
+			<div class="form-example">
+				<p class="form-label"><span class="form-item">必須</span>氏名</p>
+				<input type="text" name="name" placeholder="例) 吉多蓮" required autofocus>
+			</div>
+
+			<div class="form-example">
+				<p class="form-label"><span class="form-item">必須</span>年齢</p>
+				<select name="age" id="age" required>
+					<option value="" selected>選択してください</option>
+			        <option value="18">18歳</option>
+			        <option value="19">19歳</option>
+			        <option value="20">20歳以上</option>
+			    </select>
+			</div>
+
+			<div class="form-example">
+				<p class="form-label"><span class="form-item">必須</span>性別</p>
+				<input type="radio" name="gender" id="male" value="男の子" checked required>
+			        <label for="male">男性</label>
+			    <input type="radio" name="gender" id="female" value="女の子" required>
+			        <label for="female">女性</label>
+			</div>
+
+			<div class="form-example">
+				<p class="form-label"><span class="form-item">必須</span>メールアドレス</p>
+				<input type="email" name="email" id="email" placeholder="例) sample@gmail.com" required>
+			</div>
+
+			<div class="form-example">
+				<p class="form-label"><span class="form-item">必須</span>コメント</p>
+				<textarea name="comment" id="comment" rows="4" cols="40"></textarea>
+			</div>
+
+			<div class="button">
+			<input type="reset" value="クリア">
+			<input type="submit" value="送信">
+			</div>
+		</form>
+	</div>
+</main>
+
+	<footer>
+		<nav class="footer-list">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="character.html">character</a></li>
+				<li><a href="original.html">original</a></li>
+				<li><a href="anime.html">anime</a></li>
+				<li><a href="form.html">form</a></li>
+			</ul>
+		</nav>
+		<p>&copy;Copyright SHUEISHA Inc. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
